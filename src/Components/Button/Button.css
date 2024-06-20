@@ -1,0 +1,22 @@
+.Button{
+    width: 20%;
+    height: 8%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(206, 206, 255);
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.Button:hover{
+    background-color: rgb(171, 171, 255);
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .Button{
+        width: 30%;
+        height: 10%;
+    }
+    
+}

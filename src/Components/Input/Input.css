@@ -1,0 +1,17 @@
+.Input-Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 20%;
+}
+
+.Input-Box > input{
+    
+    padding: 5px;
+    width: 80%;
+    height: 25%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
