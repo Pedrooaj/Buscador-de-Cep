@@ -17,9 +17,9 @@ export const Form = () => {
     }
 
     
-    function handleSubmit(e) {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        fetch(`https://viacep.com.br/ws/${cep}/json/`)
+        await fetch(`https://viacep.com.br/ws/${cep}/json/`)
         .then(res => res.json()).catch(() => alert('Cep Inválido'))
         .then(data => setEndereco(
             {
@@ -28,7 +28,7 @@ export const Form = () => {
                 logradouro: data.logradouro,
                 bairro: data.bairro
             }
-        ))     
+        ));
         setSubmit(true);  
         setCep(''); 
     }
