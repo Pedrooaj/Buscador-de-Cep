@@ -1,11 +1,11 @@
 import './App.css'
-import { Form } from './Components/Form/Form'
+import { Form } from './Components/Form/Form.jsx'
 export const App = () => {
   return (
-    <div className='app'>
-    <Form />
-    <footer>Desenvolvido por Pedrooaj &copy;</footer>
-    </div>
+    <>
+      <Form />
+      <footer>Desenvolvido por Pedrooaj &copy;</footer>
+    </>
   )
 }
 

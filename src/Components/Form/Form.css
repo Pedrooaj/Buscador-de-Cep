@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
+    padding: 10px;
     background-color: darkslategrey;
     border-radius: 9px;
     text-align: center;
@@ -15,7 +16,6 @@
     .Form{
         width: 80%;
         height: 80%;
-        padding: 10px;
     }
     
 }
