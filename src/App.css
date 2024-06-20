@@ -17,10 +17,8 @@ footer {
 
 @media (max-width: 768px) {
   footer {
-
     font-size: 1.2rem;
-    position: none;
-    padding: 5px;
+    position: fixed;
   }
 
 }
